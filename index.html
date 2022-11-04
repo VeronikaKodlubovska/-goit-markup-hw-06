@@ -312,54 +312,50 @@
             <form>
                 <div class="form-wrap">
                     <label class="modal-form-label" for="name">Ім'я</label>
-                    <div class="input-wrap">
-                        <input class="modal-form" type="text" name="user-name" id="name">
-                        <svg class="icon-form" width="18" height="18">
-                            <use href="./images/sprite.svg#icon-person"></use>
-                        </svg>
-                    </div>
+                    <input class="modal-form" type="text" name="user-name" id="name">
+                    <svg class="icon-form" width="18" height="18">
+                        <use href="./images/sprite.svg#icon-person"></use>
+                    </svg>
                 </div>
 
                 <div class="form-wrap">
                     <label class="modal-form-label" for="tel">Телефон</label>
-                    <div class="input-wrap">
-                        <input class="modal-form" type="tel" name="user-tel" id="tel">
-                        <svg class="icon-form" width="18" height="18">
-                            <use href="./images/sprite.svg#icon-black-phone"></use>
-                        </svg>
-                    </div>
+                    <input class="modal-form" type="tel" name="user-tel" id="tel">
+                    <svg class="icon-form" width="18" height="18">
+                        <use href="./images/sprite.svg#icon-black-phone"></use>
+                    </svg>
                 </div>
 
                 <div class="form-wrap">
                     <label class="modal-form-label" for="email">Пошта</label>
-                    <div class="input-wrap">
-                        <input class="modal-form" type="email" name="user-email" id="email">
-                        <svg class="icon-form" width="18" height="18">
-                            <use href="./images/sprite.svg#icon-black-email"></use>
-                        </svg>
-                    </div>
+                    <input class="modal-form" type="email" name="user-email" id="email">
+                    <svg class="icon-form" width="18" height="18">
+                        <use href="./images/sprite.svg#icon-black-email"></use>
+                    </svg>
                 </div>
 
-                <label class="modal-form-label" for="comment">Коментар</label>
-                <textarea class="modal-form comment" type="textarea" name="user-comment" id="comment"
-                    placeholder="Введіть текст"></textarea>
-
-                <div class="modal-form-agreement">
-                    <label for="agreement"></label>
-                    <div class="form-agreement-wrap">
-                        <input type="checkbox" name="user-agreement" id="agreement">
-                        <span class="form-agreement">Погоджуюся з розсилкою та приймаю <a class="form-underlined"
-                                href="#">Умови
-                                договору</a></span>
-                    </div>
+                <div class="form-wrap">
+                    <label class="modal-form-label" for="comment">Коментар</label>
+                    <textarea class="modal-form comment" type="textarea" name="user-comment" id="comment"
+                        placeholder="Введіть текст"></textarea>
                 </div>
+
+
+                <label class="form-agreement-wrap">
+                    <input class="checkbox" type="checkbox" name="user-agreement">
+                    <span class="checkbox-icon"></span>
+                    <span class="form-agreement">Погоджуюся з розсилкою та приймаю <a class="form-underlined"
+                            href="#">Умови
+                            договору</a></span>
+                </label>
+
                 <div class="form-button">
                     <button class="modal-form-button" type="submit">Відправити</button>
                 </div>
         </div>
-    </div>
+        </form>
 
-    <script src="./js/modal.js"></script>
+        <script src="./js/modal.js"></script>
 </body>
 
 </html>
